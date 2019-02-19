@@ -1,18 +1,31 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "SFNS Display","Helvetica", "Arial", sans-serif;
   font-size: 17px;
   color:#111;
+}
+
+.logo_group{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo_group{
+  text-decoration: none;
 }
 
 header#header{
   background: #313131;
   width: 100%;
+  position: fixed;
+  top: 0;
 }
 
 .container{
   width: 1050px;
+  margin: 0 auto;
 }
 
 #header .container{
@@ -26,15 +39,33 @@ header#header{
   justify-content: space-between;
   align-items: center;
 }
-#header .header_navbar img{
+
+.logo_group{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#header .header_navbar h2{
+  font-size: 12px;
+  color: #f1f1f1;
+  padding-left: 10px; 
+
+
+}
+#header .header_navbar img.logo{
   width: 30px;
   height: 30px;
+}
+
+#header .header_navbar img.shoppingbag{
+  width: 50px;
+  height: 50px;
 }
 
 .header_navbar ul{
   display: flex;
   padding: 0;
-  margin: 10px;
+  margin: 0;
   justify-content: space-between;
   align-items: center;
 }
@@ -45,7 +76,7 @@ header#header{
 
 .header_navbar li a{
   text-decoration: none;
-  color: white;
+  color: #f1f1f1;
   display: block;
   font-size: 12px;
 }
@@ -55,3 +86,70 @@ header#header{
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+/* LANDING PAGE */
+section#main .landing_Page{
+  text-align: center; 
+}
+
+section#main .landing_Page .landing_Image{
+  display: flex;
+  justify-content: center;
+  
+}
+section#main .landing_Page h1{
+  font-size: 4em;
+  text-align: center;
+}
+
+
+section#main .landing_Page img{
+  width: 60%;
+  height: auto;
+
+}
+
+section#main .landing_Page .landing_Image_white{
+  animation: scroll 1.5s ease-in;
+  animation-fill-mode: forwards;  
+}
+
+section#main .landing_Page .landing_Image_black{
+  animation: scroll_black 1.5s ease-in;
+  animation-fill-mode: forwards;  
+}
+
+
+ @keyframes scroll{
+  0%{
+    width: 60%;
+    height: 60%;
+    transform: rotate(0deg)
+  }
+  50%{
+    transform: translateX(0);
+    
+  }
+  100%{
+    width: 25%;
+    height: 25%;
+    transform: translateX(-200px);
+  }
+} 
+
+@keyframes scroll_black{
+  0%{
+    width: 60%;
+    height: 60%;
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: translateX(0);
+    
+  }
+  100%{
+    width: 25%;
+    height: 25%;
+    transform: translateX(200px);
+  }
+}  
