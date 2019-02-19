@@ -2,7 +2,7 @@ const leftButton = document.querySelector('.left')
 const rightButton = document.querySelector('.right')
 const slider = document.querySelector('.landing_Page_Slider')
 const sliderImages = document.querySelectorAll('.landing_Page_Slider img')
-const step = 960 // definit le décalage
+const step = 3000 // definit le décalage
 let pos = 0 // définit la position en cours.
 let action
 let paginationContent = '';//Ici c'est la variable du contenu de .sliderPagination
@@ -12,38 +12,6 @@ playSlider()
 
 leftButton.addEventListener('click',leftSlide)
 rightButton.addEventListener('click',rightSlide)
-
-
-//Pour n allant de 0 au nombre d'image du slider-1
-for(n=0; n<= sliderImages.length-1; n++){
-
-  //On ajoute une div à la div .sliderPagination
-  paginationContent = paginationContent + '<div class="slider'+ n +'"></div>'
-  sliderPagination.innerHTML= paginationContent
-}
-
-//On récupère les noeuds des div  pagination
-const paginationButton0 = document.querySelector('.slider0')
-const paginationButton1 = document.querySelector('.slider1')
-const paginationButton2 = document.querySelector('.slider2')
-const paginationButton3 = document.querySelector('.slider3')
-const paginationButton4 = document.querySelector('.slider4')
-const paginationButton5 = document.querySelector('.slider5')
-
-
-paginationButton0.addEventListener('click', function(){ paginationClick(0) })
-paginationButton1.addEventListener('click', function(){ paginationClick(1) })
-paginationButton2.addEventListener('click', function(){ paginationClick(2) })
-paginationButton3.addEventListener('click', function(){ paginationClick(3) })
-paginationButton4.addEventListener('click', function(){ paginationClick(4) })
-paginationButton5.addEventListener('click', function(){ paginationClick(5) })
-
-
-function paginationClick(slideNumber)
-{
-  pos = slideNumber
-  setPosition(pos)
-}
 
 function leftSlide(){
   pos--
@@ -64,9 +32,10 @@ function rightSlide(){
 slider.addEventListener('mouseover',stopSlider)
 slider.addEventListener('mouseout',playSlider)
 
-rightButton.addEventListener('mouseover',stopSlider)
 leftButton.addEventListener('mouseover',stopSlider)
-
+leftButton.addEventListener('mouseout',playSlider)
+rightButton.addEventListener('mouseover',stopSlider)
+rightButton.addEventListener('mouseout',playSlider)
 
 function setPosition(pos)
 {

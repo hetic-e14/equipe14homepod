@@ -48,7 +48,8 @@ header#header{
 .landing_Page_Slider{
   display: flex;
   justify-content: flex-start;
-
+  transition: ease-in 0.5s all;
+  will-change: left; /* Faire les annimation de manière plus fluide */
 }
 .landing_Page{
   margin:20px 0px;
@@ -71,7 +72,7 @@ header#header{
 	width: 10px;
 	height: 10px;
 	background: none;
-	border: 2px solid white;
+	border: 2px solid black;
 	border-radius: 50%;
 }
 .landing_Page_Slider_Page div:hover {
