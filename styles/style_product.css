@@ -45,14 +45,58 @@ header#header{
   color: white;
   display: block;
 }
-.DoubleHomepod{
-
-}
 .landing_Page_Slider{
   display: flex;
   justify-content: flex-start;
 
 }
+.landing_Page{
+  margin:20px 0px;
+  width:100%;
+  height: 480px;
+  overflow: hidden;
+}
 .landing_Page_Slider img{
+  margin: 0px 10px;
+}
+.landing_Page_Slider_Page {
+	display: flex;
+	z-index: 8;
+	bottom: 10px;
+	left: 35%;
+}
+.landing_Page_Slider_Page div {
+	margin-right: 10px;
+	margin-left: 18px;
+	width: 10px;
+	height: 10px;
+	background: none;
+	border: 2px solid white;
+	border-radius: 50%;
+}
+.landing_Page_Slider_Page div:hover {
+	background: white;
+}
+.left{
+  position : absolute;
+  left: 20px;
+  top: 50%;
+  font-size: 25px;
+  color: #F2F2F2;
+  z-index: 10;
+}
 
+.right{
+  position : absolute;
+  right: 20px;
+  top: 50%;
+  font-size: 25px;
+  color: #F2F2F2;
+  z-index: 10;
+}
+.landing_Page_Slider{
+  margin: 20px 0px;
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
 }
