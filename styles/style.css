@@ -7,7 +7,7 @@ body{
 }
 
 header#header{
-  background: #111;
+  background: #313131;
   width: 100%;
 }
 
@@ -16,7 +16,7 @@ header#header{
 }
 
 #header .container{
-  width: 1050px;
+  width: 976px;
   margin: 0 auto;
   
 }
@@ -24,6 +24,7 @@ header#header{
 #header .header_navbar{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 #header .header_navbar img{
   width: 30px;
@@ -33,7 +34,9 @@ header#header{
 .header_navbar ul{
   display: flex;
   padding: 0;
+  margin: 10px;
   justify-content: space-between;
+  align-items: center;
 }
 .header_navbar li{
   list-style: none;
@@ -44,4 +47,11 @@ header#header{
   text-decoration: none;
   color: white;
   display: block;
+  font-size: 12px;
+}
+
+.buy{
+  background: linear-gradient(#0070C9,#42A1EC);
+  padding: 5px 10px;
+  border-radius: 5px;
 }
