@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 17px;
+  color:#111;
+}
+
+header#header{
+  background: #111;
+  width: 100%;
+}
+
+.container{
+  width: 1050px;
+}
+
+#header .container{
+  width: 1050px;
+  margin: 0 auto;
+
+}
+
+#header .header_navbar{
+  display: flex;
+  justify-content: space-between;
+}
+#header .header_navbar img{
+  width: 30px;
+  height: 30px;
+}
+
+.header_navbar ul{
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+.header_navbar li{
+  list-style: none;
+  padding-right: 15px;
+}
+
+.header_navbar li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.DoubleHomepod{
+
+}
+.landing_Page_Slider{
+  display: flex;
+  justify-content: flex-start;
+
+}
+.landing_Page_Slider img{
+
+}
