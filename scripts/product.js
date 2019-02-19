@@ -2,7 +2,7 @@ const leftButton = document.querySelector('.left')
 const rightButton = document.querySelector('.right')
 const slider = document.querySelector('.landing_Page_Slider')
 const sliderImages = document.querySelectorAll('.landing_Page_Slider img')
-const step = 3000 // definit le décalage
+const step = 1300 // definit le décalage
 let pos = 0 // définit la position en cours.
 let action
 let paginationContent = '';//Ici c'est la variable du contenu de .sliderPagination
