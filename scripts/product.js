@@ -1,12 +1,12 @@
 const leftButton = document.querySelector('.left')
 const rightButton = document.querySelector('.right')
-const slider = document.querySelector('.sliderContainer')
-const sliderImages = document.querySelectorAll('.sliderContainer img')
+const slider = document.querySelector('.landing_Page_Slider')
+const sliderImages = document.querySelectorAll('.landing_Page_Slider img')
 const step = 960 // definit le décalage
 let pos = 0 // définit la position en cours.
 let action
 let paginationContent = '';//Ici c'est la variable du contenu de .sliderPagination
-const sliderPagination = document.querySelector('.sliderPagination') //c'est noeud du .sliderPagination
+const sliderPagination = document.querySelector('.landing_Page_Slider_Page') //c'est noeud du .sliderPagination
 
 playSlider()
 
