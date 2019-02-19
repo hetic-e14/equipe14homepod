@@ -32,7 +32,7 @@ header {
   align-items: center;
 
 }
-.link {
+.headerlink {
   display: flex;
   text-decoration: none;
   list-style: none;
