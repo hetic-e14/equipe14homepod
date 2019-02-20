@@ -13,9 +13,9 @@ body{
   background-color: #F2F2F2;
 }
 header {
-  background-color: #313131;
-  margin: 0 auto;
-  padding: 13px;
+  position:fixed;
+  width: 100%;
+
 }
 
 .headerNavMenu {
@@ -25,6 +25,9 @@ header {
   list-style: none;
   flex-direction: row;
   margin:0 auto;
+  background-color: #313131;
+  margin: 0 auto;
+  padding: 13px;
 }
 .headerNav {
   display: flex;
@@ -56,4 +59,9 @@ div {
 #homePod {
   font-size: 1rem;
   font-weight: bold;
+}
+#HeaderAcheter {
+  background-color: #0070C9;
+  border-radius: 25%;
+  padding: 6px 0px 6px 0px;
 }
