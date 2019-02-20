@@ -7,27 +7,47 @@
     <link rel="stylesheet" href="../styles/testmargot.css">
     <link rel="icon" type="image/png" href="../images/logo_mini.png" />
   </head>
-  <header>
-    <ul class= "headerNavMenu">
-      <div class="headerNav">
-        <li class= "headerNavLogo"><a class="headerlink" href="#"><img class="logo" src="../images/apple_white.png"></img></a></li>
-        <li class= "headerNavHomePod"><a class="headerlink" id="homePod" href="#">HomePod</a></li>
-      </div>
-      <div class = "headerNav">
-        <li class= "headerNavSide"><a class="headerlink" href="#">Présentation</a></li>
-        <li class= "headerNavSide"><a class="headerlink" href="#">Caractéristiques techniques</a></li>
-        <li class= "headerNavSide"><div id="HeaderAcheter"><a class="headerlink" href="#">Acheter</a></div></li>
-        <li class= "headerNavSide"><a class="headerlink" href="#"><img class="search" src="../images/search.png"></img></a></li>
-        <li class= "headerNavSide"><a class="headerlink" href="#"><img class="basket" src="../images/bag.png"></img></a></li>
-      </div>
-    </ul>
+  <header id="header">
+    <div class="container">
+      <nav class="header_navbar">
+        <div class="logo_group">
+          <a href="index.html" title="Page d'accueil" class="logo_group">
+            <img class="logo" src="../images/logo_white.png" alt="Logo Apple">
+            <h2>HomePod</h2>
+          </a>
+        </div>
+        <ul>
+          <li><a href="#" title="caracteristique technique">Caractéristiques techniques</a></li>
+          <li><a href="#" title="acheter" class="buy">Acheter</a></li>
+          <li><a href="product.html" title="Panier" class="shopping_bag"><img src="../images/shopping_bag.svg"></a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <body>
-    <div class ="sectionCaracteristic">
-      <H1>« Léger comme un HomePod »</H1>
-      <p>Avec un poids de 2,5kg et des dimensions de 172 mm de hauteur et142 mm de diamètre, le HomePod ....</p>
-      <div class = "more"><p> En savoir plus ...</p></div>
-      <img src="../images/homepodbn.png"></img>
+    <div class="allSections">
+      <div class="leftColumn">
+        <div class ="sectionCaracteristic" id="section1">
+          <H1>« Léger comme un HomePod »</H1>
+          <p>Avec un poids de 2,5kg et des dimensions de 172 mm de hauteur et142 mm de diamètre, le HomePod ....</p>
+          <div class = "more"><p> En savoir plus ...</p></div>
+          <img class="homepodnoir" src="../images/homepod_noir.png"></img>
+        </div>
+        <div class ="sectionCaracteristic" id="section3">
+          <H1>Le meilleur de la musique, rien que pour vous.</H1>
+          <p>Un boomer longue portee, un ensemble de six micro et plus encore...</p>
+          <div class = "more"><p> En savoir plus ...</p></div>
+          <img class="homepodnoir" id="covers"  src="../images/covers.png"></img>
+        </div>
+      </div>
+      <div class="rightColumn">
+        <div class ="sectionCaracteristic" id="section2">
+          <H1>Le son comme vous ne l’avez jamais entendu.</H1>
+          <p>Un boomer longue portee, un ensemble de six micro et plus encore...</p>
+          <div class = "more"><p> En savoir plus ...</p></div>
+          <img class="homepodnoir" src="../images/homePod_inside.jpg"></img>
+        </div>
+      </div>
     </div>
     <footer>
 
