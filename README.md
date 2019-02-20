@@ -1,2 +1,3 @@
 # equipe14homepod
-https://yannhalgatte.github.io/lesite/
+https://homepod-e14.netlify.com/
+! ! ! lien temporaire
