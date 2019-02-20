@@ -203,7 +203,7 @@ footer {
   position: absolute;
   width:100%;
   bottom: 0px;
-  font-size: 0.8rem;
+  font-size: 11px;
 }
 .footerSection{
   margin: 0px 160px 0px 160px;
@@ -212,7 +212,10 @@ footer {
 .actualPage {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #313131;
+  border-bottom: 1px solid #D6D6D6;
+  font-weight: normal;
+  color: #555555;
+
 }
 .ramifications {
   display: flex;
@@ -222,13 +225,17 @@ footer {
 .footerLogoImage{
   width: 15px;
   height: auto;
+  padding-right: 5px;
 }
 .callLine {
-  border-bottom: 1px solid #313131;
+  border-bottom: 1px solid #D6D6D6;
+  font-weight: normal;
+  color: #888888;
 }
 .french_flag {
   width: 15px;
   height: auto;
+  padding-right: 5px;
 }
 .footerFr {
   display: flex;
@@ -237,10 +244,23 @@ footer {
 .copyright{
   display: flex;
   justify-content: space-between;
+  font-weight: normal;
+  color: #888888;
 }
 .footerlinks {
   padding : 0px 8px 0px 8px;
 }
 .footerBorder {
-  border-right: 1px solid #313131;
+  border-right: 1px solid #D6D6D6;
+}
+.informBuy , .AppleStore , .Account , .AboutApple{
+  font-weight: bold;
+}
+a{
+  font-weight:300;
+  text-decoration: none;
+  color: #333333;
+}
+a:hover {
+  text-decoration: underline;
 }
