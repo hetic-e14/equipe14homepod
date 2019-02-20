@@ -52,7 +52,7 @@ img{
   margin: 0 auto;
   padding: 0;
 }
-div {
+header + div {
   display: flex;
   flex-direction: row;
 }
@@ -64,4 +64,13 @@ div {
   background-color: #0070C9;
   border-radius: 25%;
   padding: 6px 0px 6px 0px;
+}
+
+.sectionCaracteristic {
+  background-color: #42A1EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
 }
