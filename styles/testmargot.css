@@ -196,7 +196,51 @@ h2 {
 
 footer {
   background-color: #F2F2F2;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: 'SF Pro Display';
+  position: absolute;
   width:100%;
-  height: 500px;
-  
+  bottom: 0px;
+  font-size: 0.8rem;
+}
+.footerSection{
+  margin: 0px 160px 0px 160px;
+  display: flex;
+}
+.actualPage {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #313131;
+}
+.ramifications {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLogoImage{
+  width: 15px;
+  height: auto;
+}
+.callLine {
+  border-bottom: 1px solid #313131;
+}
+.french_flag {
+  width: 15px;
+  height: auto;
+}
+.footerFr {
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+}
+.footerlinks {
+  padding : 0px 8px 0px 8px;
+}
+.footerBorder {
+  border-right: 1px solid #313131;
 }
