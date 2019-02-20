@@ -102,7 +102,6 @@ img.shopping_bag:hover{
   background: linear-gradient(#42A1EC,#0070C9);
   opacity: 1;
 }
-<<<<<<< HEAD
 .landing_Page{
   margin-top: 50px;
   display: flex;
@@ -111,66 +110,6 @@ img.shopping_bag:hover{
 .landing_Page_HomePod{
   width: 50%;
   height: 50%;
-}
-.form_Color{
-=======
-/* Landing Page */
-.landing_Page_Slider{
->>>>>>> 2830199c431e6ed38d711303647c6624d7b18a70
-  display: flex;
-  justify-content: flex-start;
-  transition: ease-in 0.5s all;
-  will-change: left; /* Faire les annimation de manière plus fluide */
-}
-.landing_Page{
-  margin:20px 0px;
-  width:100%;
-  height: 480px;
-  overflow: hidden;
-}
-.landing_Page_Slider img{
-  margin: 0px 10px;
-}
-.landing_Page_Slider_Page {
-	display: flex;
-	z-index: 8;
-	bottom: 10px;
-	left: 35%;
-}
-.landing_Page_Slider_Page div {
-	margin-right: 10px;
-	margin-left: 18px;
-	width: 10px;
-	height: 10px;
-	background: none;
-	border: 2px solid black;
-	border-radius: 50%;
-}
-.landing_Page_Slider_Page div:hover {
-	background: white;
-}
-.left{
-  position : absolute;
-  left: 20px;
-  top: 50%;
-  font-size: 25px;
-  color: #F2F2F2;
-  z-index: 10;
-}
-
-.right{
-  position : absolute;
-  right: 20px;
-  top: 50%;
-  font-size: 25px;
-  color: #F2F2F2;
-  z-index: 10;
-}
-.landing_Page_Slider{
-  margin: 20px 0px;
-  width: 100%;
-  height: 480px;
-  overflow: hidden;
 }
 .landing_Page_LogoAppleMusic{
   width: 25.6px;
@@ -196,66 +135,16 @@ form{
   left: 120px;
   bottom : 1px;
 }
-footer {
-  background-color: #F2F2F2;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  font-family: 'SF Pro Display';
-  position: absolute;
-  width:100%;
-  bottom: 0px;
-  font-size: 0.8rem;
-}
-.footerSection{
-  margin: 0px 160px 0px 160px;
-  display: flex;
-}
-.actualPage {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #313131;
-}
-.ramifications {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footerLogoImage{
-  width: 30px;
-  height: auto;
-}
-.callLine {
-  border-bottom: 1px solid #313131;
-}
-.french_flag {
-  width: 20px;
-  height: auto;
-}
-.footerFr {
-  display: flex;
-  align-items: center;
-}
-.copyright{
-  display: flex;
-  justify-content: space-between;
-}
-.footerlinks {
-  padding : 0px 8px 0px 8px;
-}
-.footerBorder {
-  border-right: 1px solid #313131;
-}
 p{
   margin : 0;
 }
 .PromoText{
   position: relative;
   left: 28px;
-  bottom : 1px;
+  top : 3px;
 }
 .AppleCareText{
   position: relative;
   left: 28px;
-  bottom : 10px;
+  top : 6px;
 }
