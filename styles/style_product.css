@@ -102,62 +102,24 @@ img.shopping_bag:hover{
   background: linear-gradient(#42A1EC,#0070C9);
   opacity: 1;
 }
-/* Landing Page */
-.landing_Page_Slider{
-  display: flex;
-  justify-content: flex-start;
-  transition: ease-in 0.5s all;
-  will-change: left; /* Faire les annimation de manière plus fluide */
-}
 .landing_Page{
-  margin:20px 0px;
-  width:100%;
-  height: 480px;
-  overflow: hidden;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
-.landing_Page_Slider img{
-  margin: 0px 10px;
+.landing_Page_HomePod{
+  width: 50%;
+  height: 50%;
 }
-.landing_Page_Slider_Page {
-	display: flex;
-	z-index: 8;
-	bottom: 10px;
-	left: 35%;
+.landing_Page_LogoAppleMusic{
+  width: 25.6px;
+  height: 25.6px;
+  position: absolute;
 }
-.landing_Page_Slider_Page div {
-	margin-right: 10px;
-	margin-left: 18px;
-	width: 10px;
-	height: 10px;
-	background: none;
-	border: 2px solid black;
-	border-radius: 50%;
-}
-.landing_Page_Slider_Page div:hover {
-	background: white;
-}
-.left{
-  position : absolute;
-  left: 20px;
-  top: 50%;
-  font-size: 25px;
-  color: #F2F2F2;
-  z-index: 10;
-}
-
-.right{
-  position : absolute;
-  right: 20px;
-  top: 50%;
-  font-size: 25px;
-  color: #F2F2F2;
-  z-index: 10;
-}
-.landing_Page_Slider{
-  margin: 20px 0px;
-  width: 100%;
-  height: 480px;
-  overflow: hidden;
+.landing_Page_LogoAppleCare{
+  width: 25.5px;
+  height: 25.5px;
+  position: absolute;
 }
 hr{
   display: flex;
@@ -165,53 +127,24 @@ hr{
   border : 2px thin black;
 }
 
-footer {
-  background-color: #F2F2F2;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  font-family: 'SF Pro Display';
+form{
   position: absolute;
-  width:100%;
-  bottom: 0px;
-  font-size: 0.8rem;
 }
-.footerSection{
-  margin: 0px 160px 0px 160px;
-  display: flex;
+.price{
+  position: relative;
+  left: 120px;
+  bottom : 1px;
 }
-.actualPage {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #313131;
+p{
+  margin : 0;
 }
-.ramifications {
-  display: flex;
-  justify-content: space-between;
+.PromoText{
+  position: relative;
+  left: 28px;
+  top : 3px;
 }
-
-.footerLogoImage{
-  width: 30px;
-  height: auto;
-}
-.callLine {
-  border-bottom: 1px solid #313131;
-}
-.french_flag {
-  width: 20px;
-  height: auto;
-}
-.footerFr {
-  display: flex;
-  align-items: center;
-}
-.copyright{
-  display: flex;
-  justify-content: space-between;
-}
-.footerlinks {
-  padding : 0px 8px 0px 8px;
-}
-.footerBorder {
-  border-right: 1px solid #313131;
+.AppleCareText{
+  position: relative;
+  left: 28px;
+  top : 6px;
 }
