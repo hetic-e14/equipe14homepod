@@ -193,6 +193,7 @@ h2 {
   display: grid;
   grid-gap: 50px;
 }
+
 footer {
   background-color: #F2F2F2;
   height: auto;
@@ -201,6 +202,7 @@ footer {
   flex-direction: column;
   font-family: 'SF Pro Display';
   position: absolute;
+  left:0px;
   bottom: 0px;
   font-size: 11px;
 }
