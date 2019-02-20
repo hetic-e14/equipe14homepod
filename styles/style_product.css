@@ -174,3 +174,23 @@ p{
 h3{
   margin-bottom : 0px;
 }
+/* Responsive */
+@media screen and (min-width:750px) and (max-width:1324px){
+    .landing_Page_HomePod{
+      margin-top: 80px
+    }
+    .HomePod_Achat{
+      width: 400px;
+    }
+}
+@media screen and (min-width:548px) and (max-width:750px){
+    .landing_Page_HomePod{
+      margin-top: 200px
+    }
+    .HomePod_Achat{
+      width: 200px;
+    }
+    .Shopping_bag_Add{
+      position: static;
+    }
+}
