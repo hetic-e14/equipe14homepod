@@ -134,3 +134,33 @@ header#header{
   justify-content: flex-start;
   align-items:center;
 }
+/* Dimensions et taille */
+.HomePod_Dimensions_Text{
+  margin-left: 328px;
+  height: 100px;
+  width: 500px;
+  margin-top: 150px;
+}
+.HomePod_Dimensions_Images{
+  display: flex;
+  justify-content: space-around;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 130px;
+  left: 175px;
+}
+.Top{
+  margin-left: 70px;
+  width: 260px;
+}
+.HomePod_TechAudio_Text{
+  display: inline-block;
+  width: 400px;
+  border : thin black solid;
+}
+.HomePod_TechAudio_Images{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 654px;
+}
