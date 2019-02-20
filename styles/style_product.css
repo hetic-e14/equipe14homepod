@@ -209,3 +209,9 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+.lastInfos{
+  display: flex;
+}
+.footerlinks {
+  border-right: 1px solid #313131;
+}
