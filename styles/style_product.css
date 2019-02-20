@@ -51,6 +51,7 @@ header#header{
   color: white;
   display: block;
 }
+/* Landing Page */
 .landing_Page_Slider{
   display: flex;
   justify-content: flex-start;
@@ -116,11 +117,12 @@ header#header{
   height: 250px;
   width: 400px;
   margin : auto 0;
+  font-size: 18px;
 }
 .homePodDescription_Left h2{
-  height: 50px;
-  width: 400px;
-  align-items: flex-start;
+  position: relative;
+  left: 349px;
+  bottom: 116px;
 }
 .homePodDescription_Right{
   display: flex;
