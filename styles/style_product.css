@@ -107,9 +107,9 @@ img.shopping_bag:hover{
   display: flex;
   justify-content: center;
 }
-.landing_Page img{
-  width: 35%;
-  height: 35%;
+.landing_Page_HomePod{
+  width: 50%;
+  height: 50%;
 }
 .form_Color{
   display: flex;
@@ -119,12 +119,28 @@ img.shopping_bag:hover{
 .landing_Page h4{
   align-items: flex-end;
 }
+.landing_Page_LogoAppleMusic{
+  width: 25.6px;
+  height: 25.6px;
+}
+.landing_Page_LogoAppleCare{
+  width: 25.5px;
+  height: 25.5px;
+}
 hr{
   display: flex;
   align-items: space-around;
   border : 2px thin black;
 }
 
+form{
+  position: absolute;
+}
+.price{
+  position: relative;
+  left: 120px;
+  bottom : 1px;
+}
 footer {
   background-color: #F2F2F2;
   width:100%;
