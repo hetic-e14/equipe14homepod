@@ -197,3 +197,15 @@ footer {
 .callLine {
   border-bottom: 1px solid #313131;
 }
+.french_flag {
+  width: 20px;
+  height: auto;
+}
+.footerFr {
+  display: flex;
+  align-items: center;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+}
