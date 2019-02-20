@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "SF Pro Text","SF Pro Display","Helvetica", "Arial", sans-serif;
   font-size: 17px;
   color:#111;
   background: #f1f1f1;
@@ -23,7 +23,7 @@ header#header{
 }
 
 .container{
-  width: 1050px;
+  width: 80vw;
   margin: 0 auto;
 }
 
@@ -182,7 +182,7 @@ section#main .landing_Page h3{
   0%{
     width: 60%;
     height: 60%;
-    transform: rotate(0deg)
+
   }
   50%{
     transform: translateX(0);
@@ -211,6 +211,21 @@ section#main .landing_Page h3{
     transform: translateX(200px);
   }
 }  
+/* DESCRIPTION DU HOMEPOD */
+
+.background_homepod_levitation{
+  background: url(../images/levite.png);
+  background-position: center;
+  height: 80vh;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+}
+
+.background_homepod_levitation:hover{
+  opacity: 0.8;
+  transition: 0.5s ease-in;
+  cursor: scroll;
+}
 
 section.descriptif{
   margin-top:100px;
@@ -239,12 +254,107 @@ section.descriptif .caracteristics{
 }
 
 section.descriptif .caracteristics h2{
-  position: sticky;
   font-size: 3em;
 }
 
 section.descriptif .caracteristics img{
-  width: 500px;
+  width: 50%;
   height: auto;
   opacity: 0.6;
+}
+
+section.descriptif .inside_homepod{
+  background: url(../images/inside.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center ;
+  height: 600vh;
+  
+}
+
+section.descriptif .inside_homepod article{
+  width: 28%;
+  text-align: center;
+  background: #111111e1;
+  border-radius: 5px;
+  padding: 30px 20px;
+  margin: 30px;
+  color: #f1f1f1;
+  transform: translateY(50%);
+  margin: 100vh auto;
+}
+
+
+section.descriptif .inside_homepod article p{
+  font-size: 0.7em;
+}
+
+.home_homepod{
+  margin: 50px auto;
+}
+
+.home_homepod article{
+  text-align: center;
+  width: 60%;
+  margin: 100px auto;
+}
+.home_homepod article h2{
+  font-size: 3em;
+}
+.home_homepod article p{
+  font-weight: 600;
+  color: #111111;
+}
+
+/* APPLE MUSIC */
+.apple_music article{
+  text-align: center;
+  width: 50%;
+  margin: 100px auto;
+}
+
+.apple_music article h2{
+  font-size: 3em;
+}
+.apple_music article p{
+  font-weight: 600;
+  color: #111111;
+}
+
+
+/* CARD */
+.cards{
+  display: flex;
+}
+.card{
+width: 50%;
+height: auto;
+background: url(../images/wallpaper_.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+text-align: center;
+padding-bottom: 50px;
+}
+
+.card img{
+  width: 40%;
+  height: auto;
+  display: block;
+  margin:  10% auto;
+  /* top : 30%; */
+}
+
+.card h3{
+  width: 50%;
+  margin: 10px auto;
+  text-align: center;
+  color: #fff;
+}
+
+.card a{
+  margin: 20;
+  text-decoration: none;
+  color: #42A1EC;
+  font-size: 0.8em;
 }
