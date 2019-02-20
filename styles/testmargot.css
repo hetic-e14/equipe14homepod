@@ -10,6 +10,7 @@ body{
   font-size: 16px;
   color: #444;
   height: 2000px;
+  background-color: #F2F2F2;
 }
 header {
   background-color: #313131;
@@ -39,8 +40,7 @@ header {
   color: white;
   font-family: sf pro;
   font-size: 0.8rem;
-  justify-content: space-between;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 20px 0px 20px;
 }
 
 img{
@@ -52,7 +52,6 @@ img{
 div {
   display: flex;
   flex-direction: row;
-  padding: 0px 10px 0px 10px;
 }
 #homePod {
   font-size: 1rem;
