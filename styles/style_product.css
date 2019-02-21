@@ -107,27 +107,90 @@ img.shopping_bag:hover{
   display: flex;
   justify-content: center;
 }
-.landing_Page img{
-  width: 35%;
-  height: 35%;
+.landing_Page_HomePod{
+  width: 50%;
+  height: 50%;
 }
-.form_Color{
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
+.landing_Page_LogoAppleMusic{
+  width: 25.6px;
+  height: 25.6px;
+  position: absolute;
 }
-.landing_Page h4{
-  align-items: flex-end;
+.landing_Page_LogoAppleCare{
+  width: 25.5px;
+  height: 25.5px;
+  position: absolute;
 }
 hr{
-  display: flex;
-  align-items: space-around;
-  border : 2px thin black;
+  height: 0.5px;
+  background-color: #111111;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 80%;
+  margin-right: 106px;
 }
 
-footer {
-  background-color: #F2F2F2;
-  width:100%;
-  height: 500px;
-  flex-direction: column;
+form{
+  position: absolute;
+}
+.price{
+  position: relative;
+  left: 120px;
+}
+p{
+  margin : 0;
+}
+.PromoText{
+  position: relative;
+  left: 28px;
+  top : 3px;
+}
+.AppleCareText{
+  position: relative;
+  left: 28px;
+  top : 6px;
+}
+.AddSub{
+  margin-top: 20px;
+}
+.AddSub, .AddAppleCare{
+  text-decoration: none;
+  color: #42a1ec;
+}
+.HomePod_Achat{
+  margin-top: 50px;
+}
+.Shopping_bag_Add{
+  background: linear-gradient(#0070C9,#42A1EC);
+  padding: 2px 8px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  color: #f1f1f1;
+  position: relative;
+  bottom: 21px;
+  left: 210px;
+}
+h3{
+  margin-bottom : 0px;
+}
+/* Responsive */
+@media screen and (min-width:750px) and (max-width:1324px){
+    .landing_Page_HomePod{
+      margin-top: 80px
+    }
+    .HomePod_Achat{
+      width: 400px;
+    }
+}
+@media screen and (min-width:548px) and (max-width:750px){
+    .landing_Page_HomePod{
+      margin-top: 200px
+    }
+    .HomePod_Achat{
+      width: 200px;
+    }
+    .Shopping_bag_Add{
+      position: static;
+    }
 }
