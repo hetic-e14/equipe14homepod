@@ -508,6 +508,7 @@ section.siri_music .homepod_siri{
 /* FOOTER */
 
 footer {
+  margin-top: 50px;
   background-color: #F2F2F2;
   height: auto;
   width: 100%;
@@ -517,7 +518,7 @@ footer {
   font-size: 11px;
 }
 .footerSection {
-  margin: 0px 160px 0px 160px;
+  margin: 10px;
   display: flex;
 }
 .footerActualPage {
@@ -565,6 +566,7 @@ footer {
   border-right: 1px solid #D6D6D6;
 }
 .footerinformBuy , .footerAppleStore , .footerAccount , .footerAboutApple{
+  padding: 10px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
@@ -587,7 +589,6 @@ footer {
   display: flex;
   justify-content: flex-start;
 }
-
 
 .fade-ani{opacity:0;
   position:relative;
