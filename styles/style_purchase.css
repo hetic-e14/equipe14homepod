@@ -1,4 +1,3 @@
-
 body{
   margin: 0 auto;
   padding: 0;
@@ -196,52 +195,65 @@ footer {
 }
 
 /* bloc */
-.blocsContainer {
-    margin: 0;
+.bodyPurchase{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  margin-top: 0px;
+}
 
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    top: 36px;
+.bodyPurchaseRight {
+  margin: 0 auto;
+  width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.bodyPurchaseLeft {
+  text-align: center;
+  margin: 0px 0px 0px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height:auto;
 
-  }
-  .bodyBlocs {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: flex-end;
-    height:100%;
-
-
-  }
-  .white_bloc {
+}
+.bodyBlocs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height:auto;
+}
+.white_bloc {
     margin: 0 auto;
-    background-color: white;
 
     color: #313131;
-    height:100%;
+    width: auto;
+    height:auto;
   }
   .black_bloc {
     margin: 0 auto;
-    background-color: #333333;
-    height:100%;
-    color: white;
-  }
 
-.bodyBlocsSquare {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 2.8rem;
-  flex-direction: column;
-      height:100%;
-}
-.blocImages{
+    color: #313131;
+    width: auto;
+    height:auto;
+  }
+  .bodyBlocsSquare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  .blocImages{
   width: 150px;
   height:auto;
-  opacity: 0;
-
+  opacity: 1;
 }
 .blocImages:hover {
   opacity: 1;
@@ -249,13 +261,60 @@ footer {
   transition-property: transform;
   transition-duration: 1s;
 }
-.salesPromotion{
-  position: absolute;
-  top: 800px;
+.purchaseHomePod {
+  padding-bottom: 25px;
+  border-bottom: 2px solid #F2F2F2;
   text-align: center;
-  font-size: 2.0rem;
+  font-size: 2.4rem;
 }
-.buyAppleMusic{
-  width: 150px;
-  height:auto;
+.linksColor{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.linksColorChoice {
+  background-color: white;
+  height: 150px;
+  width:150px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+          text-decoration: none;
+            color: #313131;
+    box-shadow: 3px 3px #f2f2f2;
+}
+.linksColorChoice:hover{
+  transform: scale(1.2);
+  transition-property: transform;
+  transition-delay: 0.5s ease-in 0s;
+}
+.linkGrey {
+
+}
+.chooseColor{
+  margin-top: 0;
+}
+.priceAndBasket{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.price{
+  color: black;
+}
+.buyBasket{
+  margin-right: 50px;
+  background-image: linear-gradient(#0070C9, #42A1EC);
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.priceOffer{
+  text-decoration: none;
+  color: #0070C9;
 }
