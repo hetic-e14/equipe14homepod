@@ -332,6 +332,7 @@ footer {
   flex-direction: column;
   justify-content: flex-start;
   padding-left: 25px;
+
 }
 .addAppleCare {
   display: flex;
@@ -341,4 +342,26 @@ footer {
   align-items: center;
   text-decoration: none;
   color: #313131;
+}
+.imagesPod{
+  display:flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.BuyHomePodImage {
+
+  width:100%;
+  height: auto;
+}
+.homePodControl{
+  text-align: center;
+  align-items: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.askHomePodText{
+  text-align: center;
+  align-items: flex-start;
+  font-size: 1.1rem;
 }
