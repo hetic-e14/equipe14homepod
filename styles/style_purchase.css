@@ -343,13 +343,18 @@ footer {
   text-decoration: none;
   color: #313131;
 }
+.imagesPod{
+  display:flex;
+  flex-direction: column;
+
+}
 .BuyHomePodImage {
   padding-top: 100px;
   width:100%;
 }
 .homePodControl{
-  align-items:center;
-  justify-content: center;
+  text-align: center;
+  align-items: flex-end;
   color: black;
   font-size: 2.4rem;
 }
