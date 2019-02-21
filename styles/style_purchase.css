@@ -211,12 +211,13 @@ footer {
 }
 .bodyPurchaseLeft {
   text-align: center;
-  margin: 0px 0px 0px 100px;
+  margin: 0px 0px 0px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
   height:auto;
+
 
 }
 .bodyBlocs{
@@ -245,7 +246,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.7rem;
     flex-direction: column;
     width: 100%;
     height: auto;
