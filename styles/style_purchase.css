@@ -314,3 +314,7 @@ footer {
   color: white;
   border-radius: 5px;
 }
+.priceOffer{
+  text-decoration: none;
+  color: #0070C9;
+}
