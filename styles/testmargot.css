@@ -2,12 +2,13 @@
 body{
   margin: 0 auto;
   padding: 0;
-  font-family:'SF Pro Display','Arial';
+  font-family: 'SF Pro Display';
   font-size: 16px;
   color: #444;
   height: 2000px;
   background-color: white;
   padding-top: 150px;
+  position: relative;
 }
 .logo_group{
   display: flex;
@@ -107,92 +108,7 @@ img.shopping_bag:hover{
   opacity: 1;
 }
 
-.mainSection {
-  display: flex;
-  justify-content: center;
-}
-.secondarySections {
-  display: flex;
-  justify-content: flex-start;
-  padding: 200px;
-  justify-content: space-around;
 
-}
-.sectionCaracteristic {
-  display: flex;
-  justify-content: center;
-  width: 350px;
-  height: 500px;
-  border-radius: 3%;
-  flex-direction:column;
-  position: relative;
-  display:inline-block;
-  align-items: flex-start;
-}
-
-h1{
-
-}
-h2 {
-  text-align: center;
-}
-
-.homepodnoir {
-  width: 30%;
-  height: auto;
-  position: absolute;
-  bottom: 80px;
-  right: 120px;
-
-
-}
-#section1 {
-  background-color: #42A1EC;
-  color: white;
-}
-.sectionCaracteristic p {
-  padding: 0px 25px 0px 25px;
-}
-
-#section2 {
-  background-color: white;
-  box-shadow: 5px 5px 5px #313131;
-}
-
-#section3 {
-  background-color: #0070C9;
-  color: white;
-}
-.more p {
-  background-color: white;
-  border-radius: 5px;
-  width: 120px;
-  height: 28px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin: 0 auto;
-  position: absolute;
-  right:10px;
-  top: 200px;
-  color: #313131;
-  box-shadow: 5px 5px 5px #313131;
-}
-#covers {
-  width: 105%;
-  height: auto;
-  position:absolute;
-  right:0px;
-}
-.leftColumn {
-  display: grid;
-  grid-gap: 50px;
-}
-.rightColumn {
-  padding-top: 200px;
-  display: grid;
-  grid-gap: 50px;
-}
 
 footer {
   background-color: #F2F2F2;
@@ -276,4 +192,61 @@ footer {
   padding-bottom: 10px;
   display: flex;
   justify-content: flex-start;
+}
+
+/* bloc */
+.blocsContainer {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 400px;
+
+  }
+  .bodyBlocs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: flex-end;
+    width: 1000px;
+    height: 500px;
+
+  }
+  .white_bloc {
+    margin: 0 auto;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    color: #313131;
+
+  }
+  .black_bloc {
+    margin: 0 auto;
+    background-color: #313131;
+    width: 500px;
+    height: 500px;
+    color: white;
+  }
+
+.bodyBlocsSquare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 2.8rem;
+  flex-direction: column;
+}
+.blocImages{
+  width: 150px;
+  height:auto;
+  opacity: 0;
+
+}
+.blocImages:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 1s;
 }
