@@ -104,8 +104,13 @@ img.shopping_bag:hover{
   opacity: 1;
 }
 /* Landing Page */
+.caracteristic_landing_Page img{
+  width: 70vw;
+  height: auto;
+  margin-top: 100px;
+}
 
-#main img{
+#main article img{
   width: 15vw;
   height: auto;
 }
