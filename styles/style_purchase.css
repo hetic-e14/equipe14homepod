@@ -308,6 +308,9 @@ footer {
 }
 .buyBasket{
   margin-right: 50px;
-  background-color: linear-gradient(#0070C9, #42A1EC);
+  background-image: linear-gradient(#0070C9, #42A1EC);
   padding: 5px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
 }
