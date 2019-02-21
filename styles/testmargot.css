@@ -202,7 +202,7 @@ footer {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 400px;
+    top: 36px;
 
   }
   .bodyBlocs {
@@ -210,23 +210,23 @@ footer {
     flex-direction: row;
     justify-content: center;
     justify-content: flex-end;
-    width: 1000px;
-    height: 500px;
+    width: 100%;
+    height: auto;
 
   }
   .white_bloc {
     margin: 0 auto;
     background-color: white;
-    width: 500px;
-    height: 500px;
+    width: 1000px;
+    height: 600px;
     color: #313131;
 
   }
   .black_bloc {
     margin: 0 auto;
-    background-color: #313131;
-    width: 500px;
-    height: 500px;
+    background-color: #333333;
+    width: 1000px;
+    height: 600px;
     color: white;
   }
 

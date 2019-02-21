@@ -24,6 +24,10 @@ header#header{
 .container{
   width: 1050px;
 }
+.container2{
+  width: 1050px;
+  margin : 0 auto;
+}
 
 #header .container{
   width: 976px;
@@ -197,3 +201,35 @@ hr{
   border: none;
   margin-bottom: 50px;
 }
+/* Autres spécificités */
+.Other{
+
+}
+.blockFlex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction : column;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+}
+.blockFlex1 h3,p{
+  position: relative;
+  left: 100px;
+  margin-left: 50px;
+}
+.blockFlex2 h3,p{
+
+}
+.blockFlex2{
+
+}
+.blockFlex3{
+
+}
+.electricPlug{
+  width: 24px;
+  height: 24px;
+}
+/*Animation */
