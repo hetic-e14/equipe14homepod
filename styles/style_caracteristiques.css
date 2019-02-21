@@ -220,15 +220,15 @@ hr{
   margin-left: 50px;
 }
 .blockFlex2 h3,p{
-  position: relative;
-  left: 70px;
-  margin-left: 50px;
-  top: 30px;
+  text-align: center;
+}
+.blockFlex2 p{
+  left: 10px;
 }
 .blockFlex3 h3,p{
   position: relative;
   left: 70px;
-  margin-left: 50px;
+  margin-left: 70px;
 }
 .electricPlug{
   width: 24px;

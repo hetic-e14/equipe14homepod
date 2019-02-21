@@ -118,11 +118,14 @@ section#main .landing_Page{
   
 }
 span{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%)
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
+
+
 
 
 section#main .landing_Page .landing_Image{
@@ -134,6 +137,7 @@ section#main .landing_Page h1{
   font-size: 4em;
   text-align: center;
 }
+
 
 
 section#main .landing_Page img{
@@ -195,6 +199,7 @@ section#main .landing_Page h3{
  }
  @keyframes scroll{
   0%{
+    opacity: 0;
     width: 60%;
     height: 60%;
 
@@ -204,6 +209,7 @@ section#main .landing_Page h3{
     
   }
   100%{
+    opacity: 1;
     width: 25%;
     height: 25%;
     transform: translateX(-200px);
@@ -212,15 +218,16 @@ section#main .landing_Page h3{
 
 @keyframes scroll_black{
   0%{
+    opacity: 0;
     width: 60%;
     height: 60%;
-    transform: rotate(0deg);
   }
   50%{
     transform: translateX(0);
     
   }
   100%{
+    opacity: 1;
     width: 25%;
     height: 25%;
     transform: translateX(200px);
