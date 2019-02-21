@@ -29,7 +29,7 @@ header#header{
 .container{
   width: 70vw;
   margin: 0 auto;
-  
+
 }
 
 #header .header_navbar{
@@ -41,7 +41,7 @@ header#header{
 #header .header_navbar h2{
   font-size: 12px;
   color: #f1f1f1;
-  padding-left: 10px; 
+  padding-left: 10px;
 }
 
 #header .header_navbar h2:hover{
@@ -124,7 +124,7 @@ img.shopping_bag:hover{
 }
 li{
   list-style: none;
-  font-size : 1.2em; 
+  font-size : 1.2em;
 }
 
 .table_device{
@@ -136,95 +136,93 @@ ul.iphone{
   margin: 0 5vw;
 }
 
-footer {
-  background-color: #F2F2F2;
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  font-family: 'SF Pro Display';
-  font-size: 11px;
-  justify-content: space-between;
-}
-.footerSection {
-  margin: 10px;
-  /* margin: 0px 160px 0px 160px; */
-  display: flex;
+/* FOOTER */
+
+
   
-}
-.footerActualPage {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #D6D6D6;
-  font-weight: normal;
-  color: #555555;
-
-}
-.footerRamifications {
-  display: flex;
-  justify-content: space-between;
-}
-
-.footerLogoImage{
-  width: 15px;
-  height: auto;
-  padding-right: 5px;
-}
-.footercallLine {
-  border-bottom: 1px solid #D6D6D6;
-  font-weight: normal;
-  color: #888888;
-}
-.footer_french_flag {
-  width: 15px;
-  height: auto;
-  padding-right: 5px;
-}
-.footerFr {
-  display: flex;
-  align-items: center;
-}
-.footer_copyright{
-  display: flex;
-  justify-content: space-between;
-  font-weight: normal;
-  color: #888888;
-}
-.footerlinks {
-  padding : 0px 8px 0px 8px;
-}
-.footerBorder {
-  border-right: 1px solid #D6D6D6;
-}
-.footerinformBuy , .footerAppleStore , .footerAccount , .footerAboutApple{
-  margin: 0 10px;
-  font-weight: bold;
-  display: flex;
-  flex-direction: column;
-
-}
-.footerSection a{
-  font-weight:300;
-  text-decoration: none;
-  color: #333333;
-
-}
-.footerSection a:hover {
-  text-decoration: underline;
-}
-.footerRamifications a {
-  padding-bottom: 10px;
-}
-.footerlastInfos{
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: flex-start;
-}
-
-footer{
-  margin-top: 50px;
-}
-
+  footer {
+    margin-top: 50px;
+    background-color: #F2F2F2;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'SF Pro Display';
+    font-size: 11px;
+  }
+  .footerSection {
+    margin: 10px;
+    display: flex;
+  }
+  .footerActualPage {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #D6D6D6;
+    font-weight: normal;
+    color: #555555;
+  
+  }
+  .footerRamifications {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footerLogoImage{
+    width: 15px;
+    height: auto;
+    padding-right: 5px;
+  }
+  .footercallLine {
+    border-bottom: 1px solid #D6D6D6;
+    font-weight: normal;
+    color: #888888;
+  }
+  .footer_french_flag {
+    width: 15px;
+    height: auto;
+    padding-right: 5px;
+  }
+  .footerFr {
+    display: flex;
+    align-items: center;
+  }
+  .footer_copyright{
+    display: flex;
+    justify-content: space-between;
+    font-weight: normal;
+    color: #888888;
+  }
+  .footerlinks {
+    padding : 0px 8px 0px 8px;
+  }
+  .footerBorder {
+    border-right: 1px solid #D6D6D6;
+  }
+  .footerinformBuy , .footerAppleStore , .footerAccount , .footerAboutApple{
+    padding: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .footerSection a{
+    font-weight:300;
+    text-decoration: none;
+    color: #333333;
+  
+  }
+  .footerSection a:hover {
+    text-decoration: underline;
+  }
+  .footerRamifications a {
+    padding-bottom: 10px;
+  }
+  .footerlastInfos{
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
 @media screen and (max-width: 1050px){
   #header a{
   font-size: 0.5em !important;
