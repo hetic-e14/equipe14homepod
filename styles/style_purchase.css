@@ -297,3 +297,24 @@ footer {
 .chooseColor{
   margin-top: 0;
 }
+.priceAndBasket{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.price{
+  color: black;
+}
+.buyBasket{
+  margin-right: 50px;
+  background-image: linear-gradient(#0070C9, #42A1EC);
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.priceOffer{
+  text-decoration: none;
+  color: #0070C9;
+}
