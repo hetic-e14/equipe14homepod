@@ -5,7 +5,7 @@ body{
   font-size: 16px;
   color: #444;
   background-color: white;
-
+  margin-top: 50px;
 }
 .logo_group{
   display: flex;
