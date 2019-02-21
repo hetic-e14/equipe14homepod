@@ -5,9 +5,13 @@ body{
   font-size: 17px;
   color:#111;
   background: #f1f1f1;
-  transition:all ease-out .5s 0s;
-}
 
+  
+}
+a:hover{
+  opacity: 0.6;
+  transition: 0.5s;
+}
 
 .logo_group{
   display: flex;
@@ -21,7 +25,7 @@ header#header{
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 2000;
 }
 
 .container{
@@ -111,6 +115,7 @@ img.shopping_bag:hover{
 section#main .landing_Page{
   text-align: center; 
   position: relative;
+  
 }
 span{
     position: absolute;
@@ -134,7 +139,7 @@ section#main .landing_Page h1{
 section#main .landing_Page img{
   width: 60%;
   height: auto;
-
+  z-index: 1000;
 }
 
 section#main .landing_Page .landing_Image_white{
@@ -221,24 +226,31 @@ section#main .landing_Page h3{
     transform: translateX(200px);
   }
 }  
+
+.menu{
+  display: none;
+}
+.menu ul{
+  display: flex;
+  justify-content: space-between;
+  width: 25vw;
+  margin: 30px auto;
+}
+
+.menu ul li{
+  list-style: none;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #0070C9;
+  font-size: 0.8em;
+}
+
 /* DESCRIPTION DU HOMEPOD */
 
-.background_homepod_levitation{
-  background: url(../images/levite.png);
-  background-position: center;
-  height: 80vh;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-}
-
-.background_homepod_levitation:hover{
-  opacity: 0.8;
-  transition: 0.5s ease-in;
-  cursor: scroll;
-}
-
 section.descriptif{
-  margin-top:100px;
+  margin-top: 50px;
 }
 section.descriptif .introduction{
   width: 50%;
@@ -246,8 +258,8 @@ section.descriptif .introduction{
   text-align: center;
   font-weight: bold;
  color: #111111;
- opacity: 0.8; 
- margin-bottom:100px;
+ opacity: 0.6; 
+ margin-bottom:50px;
 }
 
 section.descriptif img{
@@ -338,7 +350,7 @@ section.descriptif .inside_homepod article p{
 }
 .card{
 width: 100vw;
-/* height: calc(100vh - 75px); */
+height: calc(100vh - 75px);
 background: url(../images/wallpaper_.jpeg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -348,19 +360,19 @@ padding-bottom: 50px;
 }
 
 .card div{
-  background: url(../images/album.jpg);
-  background-attachment: fixed;
-  height: 50vh;
+  /* background: url(../images/album.jpg);
+  background-attachment: fixed; */
+  height: 80vh;
   background-size: cover;
   background-position: center;
 }
-/* .card img.homepod_phone{
-  width: 100vw;
+.card img.homepod_phone{
+  width: 20vw;
   height: auto;
   display: block;
   margin:  10% auto;
   top : 30%;
-} */
+}
 
 .card img.itunes{
   width: 3vw;
@@ -564,4 +576,138 @@ footer {
   padding-bottom: 10px;
   display: flex;
   justify-content: flex-start;
+}
+
+
+.fade-ani{opacity:0;
+  position:relative;
+  transition:all ease-out .5s 0s;}
+.fade-up{bottom:-50px;}
+.fade-up.showing{bottom:0px;opacity:1;}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1050px){
+  h1{
+    font-size: 2em !important;
+  }
+
+  body{
+    width: 100vw !important;
+  }
+
+
+  #main h2{
+    margin: 20px 20px !important;
+    font-size: 1.5em !important;
+    width: 50vw !important;
+  }
+  .landing_Image_black{
+    display: none;
+  }
+
+  h3{
+    font-size: 1.2em !important;
+  }
+  .landing_Image_white{
+    animation: none !important;
+    width: 20vw !important;
+    height: 25% !important;
+  }
+
+  .inside_homepod article{
+    width: 100% !important;
+  }
+
+  .inside_homepod{
+    height: 800vh !important;
+  }
+
+  .color_product{
+    display: none;
+  }
+  span{
+    display: none;
+  }
+  section#main p{
+      font-size: 0.8em;
+      width: 50vw;
+      margin: 50px auto !important;
+      text-align: center !important;
+  }
+  .apple_music article p{
+      margin: 0 auto !important;
+  }
+
+  .landing_Page h3{
+    animation: opacityText 0.3s 0 !important;
+  }
+  section#main p 
+
+  section#main h1{
+      font-size: 64px;
+  }
+  .card{
+    padding-bottom: 0 !important;
+  }
+  .card a{
+    font-size:0.5em !important;
+  }
+
+  .siri_title{
+    font-size: 1.5em !important;
+    width: 50vw !important;
+  }
+  .siri_text p{
+        animation : none !important;
+        font-size: 0.8em;
+  }
+
+  .siri_text{
+    margin: 38px !important;
+  }
+
+  .siri_daily p{
+    font-size: 0.8em !important;
+    width: 50vw;
+  }
+  .card_siri p{
+    font-size:  1.5em !important;
+  }
+
+  .intro_description p{
+    text-align: left !important;
+  }
+  .fade-ani{
+    opacity: 1 !important;
+  }
+
+  .fade-up{
+    padding-bottom: 0 !important;
+  }
+  .footerSection{
+    margin: 5px;
+  }
+
+  #header a{
+    font-size: 0.5em !important;
+  }
+  nav{
+    display: block !important;
+  }
+  #header ul{
+    display : none !important;
+  }
+
+  .landing_Page h1{
+    margin-top: 10vw;
+  }
+  .landing_Page h3{
+    opacity: 1 !important;
+  }
+
+  .menu{
+    display: block;
+  }
 }
