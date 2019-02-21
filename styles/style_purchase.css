@@ -199,11 +199,15 @@ footer {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  margin-top: 0px;
 }
 
 .bodyPurchaseRight {
   margin: 0 auto;
   width:50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .bodyPurchaseLeft {
   text-align: center;
@@ -241,7 +245,7 @@ footer {
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 2.8rem;
+    font-size: 2rem;
     flex-direction: column;
     width: 100%;
     height: auto;
@@ -261,6 +265,7 @@ footer {
   padding-bottom: 25px;
   border-bottom: 2px solid #F2F2F2;
   text-align: center;
+  font-size: 2.4rem;
 }
 .linksColor{
   display: flex;
@@ -288,4 +293,7 @@ footer {
 }
 .linkGrey {
 
+}
+.chooseColor{
+  margin-top: 0;
 }
