@@ -216,17 +216,19 @@ hr{
 }
 .blockFlex1 h3,p{
   position: relative;
-  left: 100px;
+  left: 70px;
   margin-left: 50px;
 }
 .blockFlex2 h3,p{
-
+  position: relative;
+  left: 70px;
+  margin-left: 50px;
+  top: 30px;
 }
-.blockFlex2{
-
-}
-.blockFlex3{
-
+.blockFlex3 h3,p{
+  position: relative;
+  left: 70px;
+  margin-left: 50px;
 }
 .electricPlug{
   width: 24px;
