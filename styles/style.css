@@ -5,7 +5,9 @@ body{
   font-size: 17px;
   color:#111;
   background: #f1f1f1;
+  transition:all ease-out .5s 0s;
 }
+
 
 .logo_group{
   display: flex;
@@ -23,12 +25,12 @@ header#header{
 }
 
 .container{
-  width: 80vw;
+  width: 70vw;
   margin: 0 auto;
 }
 
 #header .container{
-  width: 976px;
+  width: 80vw;
   margin: 0 auto;
   
 }
@@ -327,8 +329,8 @@ section.descriptif .inside_homepod article p{
   display: flex;
 }
 .card{
-width: 50%;
-height: auto;
+width: 100vw;
+/* height: calc(100vh - 75px); */
 background: url(../images/wallpaper_.jpeg);
 background-size: cover;
 background-repeat: no-repeat;
@@ -337,25 +339,138 @@ text-align: center;
 padding-bottom: 50px;
 }
 
-.card img{
-  width: 40%;
+.card div{
+  background: url(../images/album.jpg);
+  background-attachment: fixed;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+/* .card img.homepod_phone{
+  width: 100vw;
   height: auto;
   display: block;
   margin:  10% auto;
-  /* top : 30%; */
+  top : 30%;
+} */
+
+.card img.itunes{
+  width: 3vw;
+  height: auto;
+ display: block;
+ margin: 0 auto;
+ padding: 10px;
 }
 
 .card h3{
-  width: 50%;
+  width: 35vw;
   margin: 10px auto;
   text-align: center;
   color: #fff;
+  font-size: 2em;
 }
 
 .card a{
-  margin: 20;
+  margin: 20px;
   text-decoration: none;
   color: #42A1EC;
   font-size: 0.8em;
 }
 
+/* SIRI */
+
+
+.siri_article{
+  width: 80vw;
+  margin: 0px auto;
+  text-align: center;
+ 
+}
+section.siri_music .homepod_siri{
+  width: 20vw;
+  height: auto;
+  position: absolute;
+  top: 50% ;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+.siri_title{
+  font-size: 2.5em;
+  width: 35vw;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+.siri_text{
+  overflow: hidden;
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-size: cover;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-image: url("../images/wallpaper_.jpeg");
+}
+
+.siri_text p{
+  font-size: 1.5em;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.siri_text p:nth-child(even){
+  animation: sizeText 5s ease-in infinite;
+}
+
+.background{ 
+  position: relative;
+  width: 98.9vw;
+  height: 100vh;
+  background: linear-gradient(to top, #313131,#f1f1f1 )
+}
+
+
+@keyframes sizeText{
+  0%{
+    font-size: 1.5em;
+  }
+  50%{
+    font-size: 2em;
+  }
+  100%{
+    font-size: 1.5em;
+  }
+}
+
+.siri_daily p{
+  width: 30vw;
+  margin: 50px auto;
+  font-weight: 600;
+  color: #111111;
+}
+
+.card_siri{
+
+  background: url(../images/home_large.jpg);
+  background-size:  100vw;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.card_siri p{
+  font-size: 2em;
+  color: transparent;
+  margin: 2px auto;
+  width: 50vw;
+  height: auto;
+  background: linear-gradient(#eec4ff,#b5f1fa);
+  padding: 50px 50px;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-background-clip: text;
+}
