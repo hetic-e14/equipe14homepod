@@ -6,7 +6,7 @@ body{
   color:#111;
   background: #f1f1f1;
 
-  
+
 }
 a:hover{
   opacity: 0.6;
@@ -36,7 +36,7 @@ header#header{
 #header .container{
   width: 70vw;
   margin: 0 auto;
-  
+
 }
 
 #header .header_navbar{
@@ -48,7 +48,7 @@ header#header{
 #header .header_navbar h2{
   font-size: 12px;
   color: #f1f1f1;
-  padding-left: 10px; 
+  padding-left: 10px;
 }
 
 #header .header_navbar h2:hover{
@@ -113,9 +113,9 @@ img.shopping_bag:hover{
 
 /* LANDING PAGE */
 section#main .landing_Page{
-  text-align: center; 
+  text-align: center;
   position: relative;
-  
+
 }
 span{
   z-index: -1;
@@ -131,7 +131,7 @@ span{
 section#main .landing_Page .landing_Image{
   display: flex;
   justify-content: center;
-  
+
 }
 section#main .landing_Page h1{
   font-size: 4em;
@@ -148,12 +148,12 @@ section#main .landing_Page img{
 
 section#main .landing_Page .landing_Image_white{
   animation: scroll 1.5s ease-in;
-  animation-fill-mode: forwards;  
+  animation-fill-mode: forwards;
 }
 
 section#main .landing_Page .landing_Image_black{
   animation: scroll_black 1.5s ease-in;
-  animation-fill-mode: forwards;  
+  animation-fill-mode: forwards;
 }
 
 section#main .landing_Page h3{
@@ -162,7 +162,7 @@ section#main .landing_Page h3{
   color: #e1e1e1;
   opacity: 0;
   animation: opacityText 1s 1.5s;
-  animation-fill-mode: forwards;  
+  animation-fill-mode: forwards;
   position: sticky;
 }
 
@@ -170,7 +170,7 @@ section#main .landing_Page h3{
   display: flex;
   justify-content: space-between;
   opacity: 0.6;
-  
+
 }
 
 .color_product h5.color_product_white{
@@ -206,7 +206,7 @@ section#main .landing_Page h3{
   }
   50%{
     transform: translateX(0);
-    
+
   }
   100%{
     opacity: 1;
@@ -214,7 +214,7 @@ section#main .landing_Page h3{
     height: 25%;
     transform: translateX(-200px);
   }
-} 
+}
 
 @keyframes scroll_black{
   0%{
@@ -224,7 +224,7 @@ section#main .landing_Page h3{
   }
   50%{
     transform: translateX(0);
-    
+
   }
   100%{
     opacity: 1;
@@ -232,7 +232,7 @@ section#main .landing_Page h3{
     height: 25%;
     transform: translateX(200px);
   }
-}  
+}
 
 .menu{
   display: none;
@@ -265,7 +265,7 @@ section.descriptif .introduction{
   text-align: center;
   font-weight: bold;
  color: #111111;
- opacity: 0.6; 
+ opacity: 0.6;
  margin-bottom:50px;
 }
 
@@ -298,7 +298,7 @@ section.descriptif .inside_homepod{
   background-attachment: fixed;
   background-position: center ;
   height: 600vh;
-  
+
 }
 
 section.descriptif .inside_homepod article{
@@ -411,7 +411,7 @@ padding-bottom: 50px;
   width: 80vw;
   margin: 0px auto;
   text-align: center;
- 
+
 }
 section.siri_music .homepod_siri{
   width: 20vw;
@@ -454,7 +454,7 @@ section.siri_music .homepod_siri{
   animation: sizeText 5s ease-in infinite;
 }
 
-.background{ 
+.background{
   position: relative;
   width: 98.9vw;
   height: 100vh;
