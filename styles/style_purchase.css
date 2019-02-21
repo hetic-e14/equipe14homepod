@@ -359,9 +359,11 @@ footer {
   color: black;
   font-size: 2rem;
   font-weight: bold;
+  padding-top: 100px;
+  border-top: 1px solid #F2f2f2;
 }
 .askHomePodText{
   text-align: center;
-  align-items: flex-start;
-  font-size: 1.1rem;
+
+  font-size: 1.5rem;
 }
