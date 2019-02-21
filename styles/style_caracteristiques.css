@@ -24,6 +24,10 @@ header#header{
 .container{
   width: 1050px;
 }
+.container2{
+  width: 1050px;
+  margin : 0 auto;
+}
 
 #header .container{
   width: 976px;
@@ -197,3 +201,18 @@ hr{
   border: none;
   margin-bottom: 50px;
 }
+/* Autres spécificités */
+.Other{
+
+}
+.blockFlex{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction : column;
+  text-align: center;
+}
+.electricPlug{
+  width: 24px;
+  height: 24px;
+}
+/*Animation */
