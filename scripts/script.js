@@ -57,7 +57,7 @@ var TxtRotate = function(el, toRotate, period) {
 
 
 
-  // JQUERY
+  // JQUERY FADE EFFECT
 
   $(function(){
     $(window).scroll( function(){

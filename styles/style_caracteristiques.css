@@ -210,6 +210,23 @@ hr{
   flex-wrap: wrap;
   flex-direction : column;
   text-align: center;
+  width: 400px;
+  height: 400px;
+  margin-left: 100px;
+}
+.blockFlex1 h3,p{
+  position: relative;
+  left: 100px;
+  margin-left: 50px;
+}
+.blockFlex2 h3,p{
+
+}
+.blockFlex2{
+
+}
+.blockFlex3{
+
 }
 .electricPlug{
   width: 24px;
