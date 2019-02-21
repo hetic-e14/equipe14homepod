@@ -110,7 +110,15 @@ img.shopping_bag:hover{
 /* LANDING PAGE */
 section#main .landing_Page{
   text-align: center; 
+  position: relative;
 }
+span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
 
 section#main .landing_Page .landing_Image{
   display: flex;
@@ -457,7 +465,7 @@ section.siri_music .homepod_siri{
 .card_siri{
 
   background: url(../images/home_large.jpg);
-  background-size:  100vw;
+  background-size:  cover 100vw;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -473,4 +481,87 @@ section.siri_music .homepod_siri{
   border-radius: 10px;
   text-align: center;
   -webkit-background-clip: text;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #F2F2F2;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: 'SF Pro Display';
+  font-size: 11px;
+}
+.footerSection {
+  margin: 0px 160px 0px 160px;
+  display: flex;
+}
+.footerActualPage {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #D6D6D6;
+  font-weight: normal;
+  color: #555555;
+
+}
+.footerRamifications {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLogoImage{
+  width: 15px;
+  height: auto;
+  padding-right: 5px;
+}
+.footercallLine {
+  border-bottom: 1px solid #D6D6D6;
+  font-weight: normal;
+  color: #888888;
+}
+.footer_french_flag {
+  width: 15px;
+  height: auto;
+  padding-right: 5px;
+}
+.footerFr {
+  display: flex;
+  align-items: center;
+}
+.footer_copyright{
+  display: flex;
+  justify-content: space-between;
+  font-weight: normal;
+  color: #888888;
+}
+.footerlinks {
+  padding : 0px 8px 0px 8px;
+}
+.footerBorder {
+  border-right: 1px solid #D6D6D6;
+}
+.footerinformBuy , .footerAppleStore , .footerAccount , .footerAboutApple{
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+
+}
+.footerSection a{
+  font-weight:300;
+  text-decoration: none;
+  color: #333333;
+
+}
+.footerSection a:hover {
+  text-decoration: underline;
+}
+.footerRamifications a {
+  padding-bottom: 10px;
+}
+.footerlastInfos{
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
 }
