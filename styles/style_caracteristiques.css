@@ -18,21 +18,18 @@ header#header{
   width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 2000;
 }
 
 .container{
-  width: 1050px;
-}
-.container2{
-  width: 1050px;
-  margin : 0 auto;
-}
-
-#header .container{
-  width: 976px;
+  width: 70vw;
   margin: 0 auto;
+}
 
+.container{
+  width: 70vw;
+  margin: 0 auto;
+  
 }
 
 #header .header_navbar{
@@ -44,7 +41,7 @@ header#header{
 #header .header_navbar h2{
   font-size: 12px;
   color: #f1f1f1;
-  padding-left: 10px;
+  padding-left: 10px; 
 }
 
 #header .header_navbar h2:hover{
@@ -108,7 +105,32 @@ img.shopping_bag:hover{
 }
 /* Landing Page */
 
-h3{
+#main img{
+  width: 15vw;
+  height: auto;
+}
+
+.finition {
+  text-align: center;
+}
+#main h2{
+  padding: 2vw 0 ;
+  border-bottom: #f1f1f1 1px solid ;
+}
+li{
+  list-style: none;
+  font-size : 1.2em; 
+}
+
+.table_device{
+  display: flex;
+}
+
+ul.iphone{
+  padding: 0;
+  margin: 0 5vw;
+}
+/* h3{
   margin-top: 50px;
   text-align: center;
 }
@@ -133,7 +155,7 @@ h3{
  .Gris{
    margin-right: 100px;
  }
-/* Desciption rapide du Home Pod */
+Desciption rapide du Home Pod
 .homePodDescription_Left{
   display: flex;
   justify-content: space-between;
@@ -159,7 +181,7 @@ h3{
   justify-content: flex-start;
   align-items:center;
 }
-/* Dimensions et taille */
+ Dimensions et taille 
 .HomePod_Dimensions_Text{
   margin-left: 328px;
   height: 100px;
@@ -201,7 +223,7 @@ hr{
   border: none;
   margin-bottom: 50px;
 }
-/* Autres spécificités */
+Autres spécificités
 .Other{
 
 }
@@ -233,5 +255,5 @@ hr{
 .electricPlug{
   width: 24px;
   height: 24px;
-}
-/*Animation */
+} */
+
