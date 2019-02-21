@@ -216,14 +216,14 @@ hr{
 }
 .blockFlex1 h3,p{
   position: relative;
-  right: 
+  left: 100px;
+  margin-left: 50px;
 }
 .blockFlex2 h3,p{
- margin-left: 30px;
+
 }
 .blockFlex2{
- position: relative;
- top: 100px;
+
 }
 .blockFlex3{
 
