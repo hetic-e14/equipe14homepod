@@ -338,4 +338,7 @@ footer {
   padding: 5px;
   border-radius: 5px;
   box-shadow: 2px 2px #F2F2F2;
+  align-items: center;
+  text-decoration: none;
+  color: #313131;
 }
