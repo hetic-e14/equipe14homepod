@@ -11,7 +11,7 @@
     #main h2{
       margin: 20px 20px !important;
       font-size: 1.5em !important;
-      width: 50vw !important;
+      /* width: 50vw !important; */
     }
     .landing_Image_black{
       display: none;
@@ -28,6 +28,12 @@
   
     .inside_homepod article{
       width: 100% !important;
+      
+      overflow: hidden;
+    }
+
+    .inside_homepod article h2{
+      margin: 0px;
     }
   
     .inside_homepod{
@@ -42,9 +48,13 @@
     }
     section#main p{
         font-size: 0.8em;
-        width: 50vw;
+        /* width: 50vw; */
         margin: 50px auto !important;
         text-align: center !important;
+    }
+
+    .intro_description p{
+      text-align: left !important;
     }
     .apple_music article p{
         margin: 0 auto !important;
@@ -53,11 +63,11 @@
     .landing_Page h3{
       animation: opacityText 0.3s 0 !important;
     }
-    section#main p 
-  
+
     section#main h1{
         font-size: 64px;
     }
+
     .card{
       padding-bottom: 0 !important;
     }
@@ -91,6 +101,10 @@
     }
     .fade-ani{
       opacity: 1 !important;
+    }
+
+    .caracteristics img{
+      display: none !important;
     }
   
     .fade-up{
