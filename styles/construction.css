@@ -1,0 +1,112 @@
+body{
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'SF Pro Display';
+  font-size: 16px;
+  color: #444;
+  background-color: white;
+  margin-top: 50px;
+}
+.logo_group{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+header#header{
+  background: #313131;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.container{
+  width: 1050px;
+  margin: 0 auto;
+}
+
+#header .container{
+  width: 976px;
+  margin: 0 auto;
+
+}
+
+#header .header_navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header .header_navbar h2{
+  font-size: 12px;
+  color: #f1f1f1;
+  padding-left: 10px;
+}
+
+#header .header_navbar h2:hover{
+  opacity: 0.6;
+  transition: 0.5s;
+}
+#header .header_navbar img.logo{
+  width: 30px;
+  height: 30px;
+}
+
+img.logo:hover{
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+#header .header_navbar img.shopping_bag{
+  width: 50px;
+  height: 50px;
+}
+
+img.shopping_bag:hover{
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.header_navbar ul{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+}
+.header_navbar li{
+  list-style: none;
+  padding-right: 15px;
+}
+
+.header_navbar a:hover{
+  opacity: 0.6;
+  transition: 0.5s;
+}
+
+.header_navbar li a{
+  text-decoration: none;
+  color: #f1f1f1;
+  display: block;
+  font-size: 12px;
+}
+
+.buy{
+  background: linear-gradient(#0070C9,#42A1EC);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.header_navbar li a.buy:hover{
+  background: linear-gradient(#42A1EC,#0070C9);
+  opacity: 1;
+}
+.constructingMan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
