@@ -114,7 +114,7 @@ footer {
   display: flex;
   flex-direction: column;
   font-family: 'SF Pro Display';
-
+  margin-top: 15%;
   font-size: 11px;
 }
 .footerSection {
@@ -133,7 +133,6 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-
 .footerLogoImage{
   width: 15px;
   height: auto;
@@ -368,9 +367,16 @@ footer {
 
   font-size: 1.5rem;
 }
-.greyHomePodBlock{
-
+.AppleCareBold {
+  font-weight: bold;
 }
-.whiteHomePodBlock{
+.AppleCareLighter {
+  font-weight: 400;
+}
+.AppleCareLight {
+  font-weight: 300;
+}
+.AppleCareLightest {
+  font-weight: 200;
 
 }
