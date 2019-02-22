@@ -212,7 +212,6 @@ footer {
   width: 42%;
   height:auto;
 
-
 }
 .bodyBlocs{
   display: flex;
@@ -265,9 +264,8 @@ footer {
 .linksColor{
   display: flex;
   flex-direction: row;
-
+  align-items: center;
 }
-
 .linksColorChoice {
   background-color: white;
   height: 150px;
@@ -277,17 +275,14 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-          text-decoration: none;
-            color: #313131;
+    text-decoration: none;
+    color: #313131;
     box-shadow: 3px 3px #f2f2f2;
 }
 .linksColorChoice:hover{
   transform: scale(1.2);
   transition-property: transform;
   transition-delay: 0.5s ease-in 0s;
-}
-.linkGrey {
-
 }
 .chooseColor{
   margin-top: 0;
@@ -364,7 +359,6 @@ footer {
 }
 .askHomePodText{
   text-align: center;
-
   font-size: 1.5rem;
 }
 .AppleCareBold {
@@ -378,5 +372,4 @@ footer {
 }
 .AppleCareLightest {
   font-weight: 200;
-
 }
