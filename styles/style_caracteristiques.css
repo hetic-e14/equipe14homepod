@@ -1,7 +1,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", "Arial", sans-serif;
+  font-family: "SF Pro Display", "Helvectica", "Arial", sans-serif;
   font-size: 17px;
   color:#111;
 }
@@ -125,6 +125,7 @@ img.shopping_bag:hover{
 li{
   list-style: none;
   font-size : 1.2em;
+  font-weight: 300;
 }
 
 .table_device{
@@ -139,16 +140,17 @@ ul.iphone{
 /* FOOTER */
 
 
-  
+
   footer {
     margin-top: 50px;
     background-color: #F2F2F2;
-    height: auto;
     width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     font-family: 'SF Pro Display';
     font-size: 11px;
+
   }
   .footerSection {
     margin: 10px;
@@ -160,13 +162,13 @@ ul.iphone{
     border-bottom: 1px solid #D6D6D6;
     font-weight: normal;
     color: #555555;
-  
+
   }
   .footerRamifications {
     display: flex;
     justify-content: space-between;
   }
-  
+
   .footerLogoImage{
     width: 15px;
     height: auto;
@@ -203,13 +205,13 @@ ul.iphone{
     font-weight: bold;
     display: flex;
     flex-direction: column;
-  
+
   }
   .footerSection a{
     font-weight:300;
     text-decoration: none;
     color: #333333;
-  
+
   }
   .footerSection a:hover {
     text-decoration: underline;
@@ -222,7 +224,7 @@ ul.iphone{
     display: flex;
     justify-content: flex-start;
   }
-  
+
 @media screen and (max-width: 1050px){
   #header a{
   font-size: 0.5em !important;
